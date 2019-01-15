@@ -1,7 +1,8 @@
 #include <iostream>
 #include <conio.h>
 
-void main() {
+int main() {
 	std::cout << "Hello World" << std::endl;
 	_getch();
+	return 0;
 }

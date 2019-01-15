@@ -12,7 +12,7 @@ int addFunc(int param1, int param2) {
 	return param1 + param2;
 }
 
-void main() {
+int main() {
 	int num1, num2, result;
 	cout << "This is a piece of code in main()\n";
 	demoFunc();
@@ -27,4 +27,5 @@ void main() {
 	cout << "\tValues returned: " << result << endl;
 	cout << "Returned to main()\n";
 	_getch();
+	return 0;
 }
