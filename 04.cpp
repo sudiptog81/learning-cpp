@@ -6,7 +6,14 @@ using namespace std;
 void varTypes(string varType, int size)
 {
 	string varTypeBoilerplate = "Size of a " + varType + " is ";
-	cout << varTypeBoilerplate << size << " bytes." << endl;
+	if (size != 1)
+	{
+		cout << varTypeBoilerplate << size << " bytes." << endl;
+	}
+	else
+	{
+		cout << varTypeBoilerplate << size << " byte." << endl;
+	}
 }
 
 int main()
