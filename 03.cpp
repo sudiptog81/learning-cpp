@@ -2,17 +2,20 @@
 #include <conio.h>
 using namespace std;
 
-void demoFunc() {
+void demoFunc()
+{
 	cout << "This is a piece of code in demoFunc()\n";
 }
 
-int addFunc(int param1, int param2) {
+int addFunc(int param1, int param2)
+{
 	cout << "First parameter to addFunc(): " << param1 << endl;
 	cout << "Second parameter to addFunc(): " << param2 << endl;
 	return param1 + param2;
 }
 
-int main() {
+int main()
+{
 	int num1, num2, result;
 	cout << "This is a piece of code in main()\n";
 	demoFunc();

@@ -2,6 +2,7 @@
 *.vcxproj
 *.vcxproj.*
 Source.cpp
-Debug/**
-x64/**
-.vs/**
+Debug/
+x64/
+.vs/
+.vscode/
