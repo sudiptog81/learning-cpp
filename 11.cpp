@@ -10,18 +10,20 @@ int main()
 
 		switch (i)
 		{
-			case 0:
-				cout << "Zero" << endl;
-				break;
-			case 1:
-				cout << "One" << endl;
-				break;
-			case 2:
-				cout << "Two" << endl;
-				break;
-			default:
-				break;
+		case 0:
+			cout << "Zero" << endl;
+			break;
+		case 1:
+			cout << "One" << endl;
+			break;
+		case 2:
+			cout << "Two" << endl;
+			break;
+		default:
+			break;
 		};
 	};
-}
 
+	_getch();
+	return 0;
+}
